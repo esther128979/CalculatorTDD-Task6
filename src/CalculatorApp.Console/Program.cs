@@ -33,7 +33,7 @@ namespace CalculatorApp.ConsoleApp
                 }
                 catch (Exception ex)
                 {
-                    // בשלב הזה מציגים הודעה קריאה. אם יש לך חריגות דומייניות אפשר לדייק.
+                    
                     System.Console.WriteLine($"Error: {ex.Message}");
                 }
             }
