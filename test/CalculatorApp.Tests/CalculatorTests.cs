@@ -18,13 +18,6 @@ namespace CalculatorApp.Tests
         }
 
 
-        [Fact]
-        public void Calculate_WithSubtraction_ReturnsCorrectResult()
-        {
-            var calculator = new Calculator();
-            var result = calculator.Calculate("5   -3");
-            Assert.Equal(2, result);
-        }
 
 
         

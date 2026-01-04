@@ -39,7 +39,7 @@ namespace CalculatorApp.Core.Parsing
                     continue;
                 }
 
-                // 3) מספר (כרגע ספרות בלבד: 0-9, נרחיב אחר כך)
+                
                 if (char.IsDigit(expression[i]))
                 {
                     int start = i;

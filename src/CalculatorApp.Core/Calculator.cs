@@ -17,7 +17,8 @@ namespace CalculatorApp.Core
              {
                 new AddOperator(),
                 new SubtractOperator(),
-                new MultiplyOperator()
+                new MultiplyOperator(),
+                new DivideOperator()
              })
          ),
          new SimpleExpressionEvaluator()
@@ -39,5 +40,6 @@ namespace CalculatorApp.Core
             var tokens = _parser.Parse(expression);
             return _evaluator.Evaluate(tokens);
         }
+
     }
 }
